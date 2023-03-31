@@ -67,7 +67,20 @@ def unzip_file(file_path, dest_path=None) -> list[str]:
             file_list.append(os.path.join(dest_path, file_info.filename))
         return file_list
 
+def is_admin():
+    try:
+        return ctypes.windll.shell32.IsUserAnAdmin()
+    except:
+        return False
 
+if not is_admin():
+    # 관리자 권한으로 실행 중이 아니라면, 다시 관리자 권한으로 실행하도록 요청
+    ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, __file__, None, 1)
+    # 프로그램을 종료
+    sys.exit()
+else:
+    # 프로그램 실행
+    pass
 def csv_to_excel(file_path: str):
     encoding = is_encoded(file_path)
     data = pd.read_csv(file_path, encoding=encoding)
