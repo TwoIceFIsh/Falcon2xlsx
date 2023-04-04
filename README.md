@@ -1,5 +1,6 @@
 ![CS_Logo_2022_Stacked_Full-Red_RGB](https://user-images.githubusercontent.com/29951014/229669594-ece356aa-5adc-448d-9d51-cf17a418e2a0.png)
-
+<br>
+![https://img.shields.io/badge/OS-Windows-green](https://img.shields.io/badge/OS-Windows-green)
 ## What's the point of this job
 When download csv file from Falcon UI, UTF-8 file format letters not work propery. 
 <br>
