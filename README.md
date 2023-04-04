@@ -1,4 +1,4 @@
-![424-4247422_crowdstrike-falcon-logo-clipart-png-download-crowdstrike-falcon](https://user-images.githubusercontent.com/29951014/229669518-07fdec07-5793-47e4-8979-084adaab0f25.png)
+![CS_Logo_2022_Stacked_Full-Red_RGB](https://user-images.githubusercontent.com/29951014/229669594-ece356aa-5adc-448d-9d51-cf17a418e2a0.png)
 
 ## What's the point of this job
 When download csv file from Falcon UI, UTF-8 file format letters not work propery. 
