@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CSVtoEXCEL.iml" filepath="$PROJECT_DIR$/CSVtoEXCEL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/falcon2xlsx.iml" filepath="$PROJECT_DIR$/falcon2xlsx.iml" />
     </modules>
   </component>
 </project>
