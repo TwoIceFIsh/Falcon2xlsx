@@ -94,12 +94,16 @@ def copy_file(src_file_path, dest_file_path):
 if __name__ == '__main__':
     args = sys.argv
     file_path = args[1]
-    if (is_compressed_file(file_path)):
+
+    if 'csv' not in file_path.split(".")[-1] or 'zip' not in file_path.split(".")[-1]:
+        print("not support")
+
+    if is_compressed_file(file_path):
         out_file = unzip_file(file_path)[0]
         csv_to_excel(file_path=out_file)
         remove_file(file_path)
 
-    if (is_csv_file(file_path)):
+    if is_csv_file(file_path):
         csv_to_excel(file_path=file_path)
         remove_file(file_path)
 
